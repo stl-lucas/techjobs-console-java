@@ -120,11 +120,11 @@ public class TechJobs {
                 System.out.println(key + ": " + value);
                 count = ++count;
             }
+            System.out.println("*****");
+            System.out.println("");
         }
         if (count == 0) {
             System.out.println("Sorry, no results were found.");
-        } else {
-            System.out.println("*****");
         }
     }
 }
